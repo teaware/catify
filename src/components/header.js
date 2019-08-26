@@ -9,35 +9,13 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            marginLeft: "3em",
+            margin: "0 auto",
             padding: "10px"
           }}
           className="has-text-white is-size-3"
         >
           {siteTitle} 🐈
         </Link>
-      </div>
-      <div className="navbar-end" style={{ marginRight: "3em" }}>
-        <div className="navbar-item">
-          <Link
-            to="/"
-            style={{
-              padding: "10px"
-            }}
-            className="has-text-white"
-          >
-            Home
-          </Link>
-          <Link
-            to="/gallery/"
-            style={{
-              padding: "10px"
-            }}
-            className="has-text-white"
-          >
-            Gallery
-          </Link>
-        </div>
       </div>
     </nav>
   </header>

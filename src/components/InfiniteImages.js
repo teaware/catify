@@ -16,11 +16,20 @@ const ImageGallery = ({ images, loading, fetchImages }) => {
           更多猫咪要来了 🐈🐈...
         </p>
       }
+      endMessage={
+        <p style={{ textAlign: "center" }}>
+          <b>没了没了😸</b>
+        </p>
+      }
     >
       <div className="image-grid">
         {!loading
           ? images.map(image => (
-              <div className="image-item" key={image.id}>
+              <div
+                className="image-item"
+                key={image.id}
+                style={{ backgroundColor: image.color }}
+              >
                 <img src={image.urls.regular} alt={image.alt_description} />
               </div>
             ))

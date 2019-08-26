@@ -19,9 +19,7 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
-    "react-image-palette": "^0.2.4",
-    "react-infinite-scroll-component": "^4.5.3",
-    "react-palette": "^1.0.1"
+    "react-infinite-scroll-component": "^4.5.3"
   },
   "devDependencies": {
     "gh-pages": "^2.1.1",

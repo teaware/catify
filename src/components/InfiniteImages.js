@@ -13,11 +13,11 @@ const ImageGallery = ({ images, loading, fetchImages }) => {
       hasMore={true}
       loader={
         <p style={{ textAlign: "center", marginTop: "1%" }}>
-          更多猫咪要来了 🐈🐈...
+          更多阿猫要来了 🐈🐈...
         </p>
       }
       endMessage={
-        <p style={{ textAlign: "center" }}>
+        <p style={{ textAlign: "center", marginTop: "1%" }}>
           <b>没了没了😸</b>
         </p>
       }
